@@ -8,6 +8,7 @@ body {
 #container {
   background-image: url("img/pexels-mihis-alex-21014.jpg");
   height: 100vh;
+  opacity: 85%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,4 +51,15 @@ a {
 }
 .fadein {
   animation: fadeIn cubic-bezier(1, 0, 1, 1) 1.5s forwards;
+}
+
+.navbar-toggler
+{
+  border: 2px solid black;
+  width: 35px;
+  height: 15px;
+}
+h1
+{
+  color: white;
 }
