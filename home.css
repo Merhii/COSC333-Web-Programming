@@ -6,7 +6,7 @@ body {
   animation: fadeIn ease 1s forwards;
 }
 #container {
-  background-image: url("img/pexels-mihis-alex-21014.jpg");
+  background-image: url("img/photo-1585503418537-88331351ad99.webp");
   height: 100vh;
   opacity: 85%;
   background-repeat: no-repeat;
@@ -29,6 +29,7 @@ a {
 }
 .main {
   margin: 10%;
+  margin-top: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,4 +63,14 @@ a {
 h1
 {
   color: white;
+}
+.carousel {
+  width:55%;
+  height:40%;
+}
+
+.marginRight {
+margin-right: 15%;
+margin-top: 10%;
+margin-left: 5%;
 }
