@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="home.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="Cars">Choose your car type:</label>
+      <input list="CarTypes" name="Cars" />
+      <datalist id="CarTypes">
+        <option value="Marriage"></option>
+        <option value="City"></option>
+        <option value="Sport"></option>
+        <option value="Family"></option>
+        <option value="OffRoad"></option>
+      </datalist>
+      <!-- <input type="text" /> -->
+    </div>
+    <div class="container text-center">
+      <ul class="list" id="myUL">
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />1
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />2
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />3
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />4
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />5
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/img/car1.jpg" alt="" /><br />6
+          </div>
+        </div>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
