@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     // reserve car
     $("#reserveBtn").click(function(){
@@ -11,7 +10,7 @@ $(document).ready(function(){
   })
 
 
-  $(function () {
+$(function () {
     $(document).scroll(function () {
         var $nav = $(".test-navbar");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
