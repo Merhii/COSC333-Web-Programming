@@ -182,8 +182,8 @@ h1 {
   transition: 0.8s;
 }
 
-/* Khrote */
-.FR {
+/* underline on hover */
+.Underline_hover {
   --s: 0.1em; /* the thickness of the line */
   --c: #ffc107; /* the color */
 
@@ -196,6 +196,17 @@ h1 {
   background-clip: text, padding-box;
   transition: 0.5s;
 }
-.FR:hover {
+.Underline_hover:hover {
   --_p: 100%;
+}
+
+@media (max-width: 600px) {
+  .marginNavbar {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 600px) {
+  .marginNavbar {
+    margin-top: 5%;
+  }
 }
