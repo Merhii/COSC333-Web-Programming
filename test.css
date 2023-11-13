@@ -1,0 +1,30 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.details {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .details {
+  transform: scaleY(1);
+}
+.details{
+  display: flex;
+  color: white;
+
+}
+
+
+
+

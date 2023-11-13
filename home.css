@@ -139,7 +139,23 @@ h1 {
     margin-bottom: 5%;
   }
 }
+.searchlinkDecoration{
+  text-decoration: none;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+}
+.rentlinkDecoration
+{
+text-decoration: none;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  width:fit-content;
+  height: fit-content;
+}
 @media (min-width: 600px) {
+
   .linkDecoration {
     text-decoration: none;
     color: #ffc107;
@@ -155,6 +171,16 @@ h1 {
   }
 }
 
+.rentlinkDecoration:hover
+{
+  color: black;
+  background-color: #ffc107;
+  transition: 0.8s;}
+.searchlinkDecoration:hover{
+  color: black;
+  background-color: #ffc107;
+  transition: 0.8s;
+}
 .linkDecoration:hover {
   color: black;
   background-color: #ffc107;
@@ -182,8 +208,8 @@ h1 {
   transition: 0.8s;
 }
 
-/* Khrote */
-.FR {
+/* underline on hover */
+.Underline_hover {
   --s: 0.1em; /* the thickness of the line */
   --c: #ffc107; /* the color */
 
@@ -196,6 +222,17 @@ h1 {
   background-clip: text, padding-box;
   transition: 0.5s;
 }
-.FR:hover {
+.Underline_hover:hover {
   --_p: 100%;
+}
+
+@media (max-width: 600px) {
+  .marginNavbar {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 600px) {
+  .marginNavbar {
+    margin-top: 5%;
+  }
 }
