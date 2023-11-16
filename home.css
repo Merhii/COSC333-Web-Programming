@@ -57,7 +57,11 @@ h1 {
   width: 55%;
   height: 40%;
 }
-
+@media (max-width: 750px) {
+  .carouselMobile {
+    margin-top: 80%;
+  }
+}
 .marginCarousal {
   margin-right: 15%;
   margin-top: 10%;
@@ -139,23 +143,21 @@ h1 {
     margin-bottom: 5%;
   }
 }
-.searchlinkDecoration{
+.searchlinkDecoration {
   text-decoration: none;
   color: #ffc107;
   border: 1px solid #ffc107;
   border-radius: 8px;
 }
-.rentlinkDecoration
-{
-text-decoration: none;
+.rentlinkDecoration {
+  text-decoration: none;
   color: #ffc107;
   border: 1px solid #ffc107;
   border-radius: 8px;
-  width:fit-content;
+  width: fit-content;
   height: fit-content;
 }
 @media (min-width: 600px) {
-
   .linkDecoration {
     text-decoration: none;
     color: #ffc107;
@@ -171,12 +173,12 @@ text-decoration: none;
   }
 }
 
-.rentlinkDecoration:hover
-{
+.rentlinkDecoration:hover {
   color: black;
   background-color: #ffc107;
-  transition: 0.8s;}
-.searchlinkDecoration:hover{
+  transition: 0.8s;
+}
+.searchlinkDecoration:hover {
   color: black;
   background-color: #ffc107;
   transition: 0.8s;
@@ -235,4 +237,7 @@ text-decoration: none;
   .marginNavbar {
     margin-top: 5%;
   }
+}
+.inputWidth {
+  width: 10%;
 }
