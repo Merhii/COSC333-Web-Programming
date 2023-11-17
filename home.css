@@ -57,7 +57,7 @@ h1 {
   width: 55%;
   height: 40%;
 }
-@media (max-width: 750px) {
+@media (max-width: 767px) {
   .carouselMobile {
     margin-top: 80%;
   }
@@ -239,5 +239,5 @@ h1 {
   }
 }
 .inputWidth {
-  width: 10%;
+  width: 7%;
 }
