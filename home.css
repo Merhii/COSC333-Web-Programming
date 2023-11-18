@@ -59,14 +59,13 @@ h1 {
 }
 @media (max-width: 767px) {
   .carouselMobile {
-    margin-top: 80%;
+    margin-top: 50%;
   }
 }
-.marginCarousal {
-  margin-right: 15%;
-  margin-top: 10%;
-  margin-left: 5%;
+.border_radius {
+  border-radius: 40px;
 }
+
 .logo {
   width: 17%;
   height: 17%;
@@ -172,6 +171,9 @@ h1 {
     justify-content: center;
   }
 }
+.dropdowndecoration {
+  border: 0px;
+}
 
 .rentlinkDecoration:hover {
   color: black;
@@ -240,4 +242,8 @@ h1 {
 }
 .inputWidth {
   width: 7%;
+}
+.imgcarousal {
+  width: 700px;
+  height: 300px;
 }
