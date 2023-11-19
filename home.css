@@ -247,3 +247,19 @@ h1 {
   width: 700px;
   height: 300px;
 }
+
+.Decoration{
+  text-decoration: none;
+    color: black;
+    border: 1px solid #ffc107;
+    height: 200%;
+    border-radius: 8px;
+}
+.gapContainer{
+  margin-bottom: 5%;
+}
+@media (max-width :600px) {
+  .gapContainer{
+    margin-bottom: 30%;
+  }
+}
