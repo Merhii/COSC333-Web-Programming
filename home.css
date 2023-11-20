@@ -263,3 +263,15 @@ h1 {
     margin-bottom: 30%;
   }
 }
+.devPics{
+  width: 350px;
+  height: 350px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+@media(max-width : 600px){
+  .devPics{
+    width: 150px;
+  height: 150px;
+  }
+}
