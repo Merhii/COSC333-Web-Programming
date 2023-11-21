@@ -280,14 +280,13 @@ h1 {
     height: 150px;
     place-items: center;
   }
-  .MTD{
+  .MTD {
     place-items: center;
   }
-
 }
 #headerAbout {
   background-image: url("/img/Dealer.jpg");
-  color:  whitesmoke;
+  color: whitesmoke;
   height: 100vh;
   position: relative;
   background-repeat: no-repeat;
@@ -303,8 +302,42 @@ h1 {
 .marginbottom {
   margin-bottom: 12%;
 }
+@media (max-width: 1300px) {
+  .marginbottom {
+    margin-bottom: 15%;
+  }
+  .inputWidth {
+    width: 20%;
+  }
+}
+@media (max-width: 991px) {
+  .marginbottom {
+    margin-bottom: 20%;
+  }
+  .inputWidth {
+    width: 30%;
+  }
+}
+@media (max-width: 767px) {
+  .marginbottom {
+    margin-bottom: 30%;
+  }
+  .inputWidth {
+    width: 50%;
+    font-size: smaller;
+  }
+}
+@media (max-width: 460px) {
+  .marginbottom {
+    margin-bottom: 40%;
+  }
+  .inputWidth {
+    width: 50%;
+    font-size: x-small;
+  }
+}
 
-.mainAbout{
+.mainAbout {
   display: flex;
   flex-direction: column;
   height: inherit;
