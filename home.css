@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -241,37 +241,44 @@ h1 {
   }
 }
 .inputWidth {
-  width: 7%;
+  width: 8%;
 }
 .imgcarousal {
   width: 700px;
   height: 300px;
 }
-
-.Decoration{
-  text-decoration: none;
-    color: black;
-    border: 1px solid #ffc107;
-    height: 200%;
-    border-radius: 8px;
+.car_garage {
+  width: 300px;
+  height: 150px;
 }
-.gapContainer{
+
+.Decoration {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ffc107;
+  height: 200%;
+  border-radius: 8px;
+}
+.gapContainer {
   margin-bottom: 5%;
 }
-@media (max-width :600px) {
-  .gapContainer{
+@media (max-width: 600px) {
+  .gapContainer {
     margin-bottom: 30%;
   }
 }
-.devPics{
+.devPics {
   width: 350px;
   height: 350px;
   border: 2px solid #000000;
   border-radius: 50%;
 }
-@media(max-width : 600px){
-  .devPics{
+@media (max-width: 600px) {
+  .devPics {
     width: 150px;
-  height: 150px;
+    height: 150px;
   }
+}
+.marginbottom {
+  margin-bottom: 12%;
 }
