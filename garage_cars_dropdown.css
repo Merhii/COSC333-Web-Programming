@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
 }
-
+/* hide details */
 .details {
   position: absolute;
   top: 100%;
@@ -15,16 +15,11 @@
   transform-origin: top;
   transition: transform 0.3s ease;
 }
-
+/* show details on hover on the car */
 .image-container:hover .details {
   transform: scaleY(1);
 }
-.details{
+.details {
   display: flex;
   color: white;
-
 }
-
-
-
-

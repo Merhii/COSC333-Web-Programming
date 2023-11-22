@@ -5,7 +5,7 @@ var menuTrigger = $("#menu-trigger");
 menuTrigger.click(function() {
 $("#navbarList").toggleClass("nav-menu-open");
 });
-// filter cars with jquery
+// double filter cars by classname with jquery
 // $("#searchbtn").on("click", filtercars);
 // function filtercars() {
 //   var filterValue1 = $("#filter1").val().toLowerCase();
@@ -22,14 +22,14 @@ $("#navbarList").toggleClass("nav-menu-open");
 // }
 
 });
-// filter cars 
+// double filter cars by classname
 document.getElementById("searchbtn").addEventListener("click", filtercars)
 function filtercars() {
   // Get the input value and convert it to lowercase
   var filterValue1 = document.getElementById("filter1").value.toLowerCase();
   var filterValue2 = document.getElementById("filter2").value.toLowerCase();
   
-  // Get all the div elements
+  // Get all the div cars with classname
   var divs = document.getElementsByClassName("col-xs-12");
   
   // Loop through the divs and hide/show them based on their classes
