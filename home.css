@@ -343,3 +343,20 @@ h1 {
   height: inherit;
   gap: 16px;
 }
+#Chauffeurs_img {
+  background-image: url("img/Chauffeur-background.jpg");
+  background-position: right;
+  height: 100vh;
+  width: 50%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Mechanics_img {
+  background-image: url("img/Mechanics-background.jpg");
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
